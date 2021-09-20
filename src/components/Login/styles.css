@@ -1,0 +1,62 @@
+.container {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.418);
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #21242bf6;
+  margin-top: 15vh;
+}
+.InputsCamp {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+.InputsCamp input {
+  margin-bottom: 2vh;
+  border: 0;
+  padding: 8px;
+  background-color: #21242bf6;
+  border-bottom: 0.6px solid rgb(44, 143, 133);
+  color: white;
+}
+
+.InputsCamp button {
+  padding: 10px;
+  border-radius: 24px;
+  border: 0;
+  background-color: rgb(44, 143, 133);
+  color: white;
+  transition: all 0.2s;
+}
+
+.InputsCamp button:hover {
+  background-color: rgb(58, 177, 165);
+  cursor: pointer;
+  transform: scale(1, 1);
+}
+.alert {
+  margin-top: 2vh;
+}
+.content {
+  height: 100vh;
+}
+#loginTrue {
+  color: rgba(1, 219, 1, 0.603);
+}
+#loginFalse {
+  color: rgba(255, 255, 0, 0.705);
+}
+
+@media screen and (min-width: 668px) {
+  .container {
+    width: 30vw;
+    height: 50vh;
+  }
+}
